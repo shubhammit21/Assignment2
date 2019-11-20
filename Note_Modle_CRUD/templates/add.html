@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Add Note</title>  
+</head>
+<style type="text/css">
+    .url_title
+{
+    display: none;
+}
+* {
+  text-align: center;
+  color: blue;
+}
+</style>  
+<body>  
+    <h2>Note Information</h2>   
+    <form action = "/savedetails" method="post">  
+    <table>  
+        <tr><td>Name</td><td><input type="text" name="name"></td></tr>  
+        <tr><td>Email</td><td><input type="email" name="email"></td></tr>  
+        <tr><td>Address</td><td><input type="text" name="address"></td></tr>  
+        <tr><td><input type="submit" value="Submit"></td></tr>  
+    </table>  
+    </form>  
+</body>  
+</html>
